@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.currentScore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
